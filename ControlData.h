@@ -1,29 +1,29 @@
-#ifndef USER_H_INCLUDED
+ï»¿#ifndef USER_H_INCLUDED
 #define USER_H_INCLUDED
 #include <stdbool.h>
 /**
-* ·í ­n°µ·|­û³B²z ®É
-* «Å§i·|­û°ò¥»¸ê®Æµ²ºc©w¸q
+* ç•¶ è¦åšæœƒå“¡è™•ç† æ™‚
+* å®£å‘Šæœƒå“¡åŸºæœ¬è³‡æ–™çµæ§‹å®šç¾©
 */
 struct User;
 /**
-*·í ¨Ï¥ÎªÌ¿é¤J·|­û¸ê®Æ ®É
-*«Å§i¿ù»~ºØÃş·í§@¿ù»~¦^³ø®æ¦¡
+*ç•¶ ä½¿ç”¨è€…è¼¸å…¥æœƒå“¡è³‡æ–™ æ™‚
+*å®£å‘ŠéŒ¯èª¤ç¨®é¡ç•¶ä½œéŒ¯èª¤å›å ±æ ¼å¼
 */
 enum UserCheckFormat;
 /**
-* ·í ·s¼W §R°£ ¬d¸ß ­×§ï ·|­û ®É:
-* §P©w¬O§_¦³¦¹·|­û
-* @param ¿é¤J [struct User ]user ¦Û­qªº®ÑÄy¸ê®Æªíµ²ºc°}¦C
-* @return ¦^¶ÇBOOL­È ¦^³ø¬O§_¦³¦¹±b¸¹
+* ç•¶ æ–°å¢ åˆªé™¤ æŸ¥è©¢ ä¿®æ”¹ æœƒå“¡ æ™‚:
+* åˆ¤å®šæ˜¯å¦æœ‰æ­¤æœƒå“¡
+* @param è¼¸å…¥ [struct User ]user è‡ªè¨‚çš„æ›¸ç±è³‡æ–™è¡¨çµæ§‹é™£åˆ—
+* @return å›å‚³BOOLå€¼ å›å ±æ˜¯å¦æœ‰æ­¤å¸³è™Ÿ
 */
 enum UserCheckFormat CheckUser(struct User user);
-//½T»{·|­û¤§¿é¤J®æ¦¡¬O§_¦³»~
+//ç¢ºèªæœƒå“¡ä¹‹è¼¸å…¥æ ¼å¼æ˜¯å¦æœ‰èª¤
 /**
-* ·í ·U·Q­n°µ·|­û¸ê®Æ®æ¦¡§PÂ_ ®É:
-* §P©w¬O§_¦³¦¹·|­û
-* @param ¿é¤J [struct User ]user ¦Û­qªº®ÑÄy¸ê®Æªíµ²ºc°}¦C
-* @return ¦^¶Çenum­È ¦^³ø¬O­ş¤@·|­û¸ê®Æ¦³¿ù
+* ç•¶ æ„ˆæƒ³è¦åšæœƒå“¡è³‡æ–™æ ¼å¼åˆ¤æ–· æ™‚:
+* åˆ¤å®šæ˜¯å¦æœ‰æ­¤æœƒå“¡
+* @param è¼¸å…¥ [struct User ]user è‡ªè¨‚çš„æ›¸ç±è³‡æ–™è¡¨çµæ§‹é™£åˆ—
+* @return å›å‚³enumå€¼ å›å ±æ˜¯å“ªä¸€æœƒå“¡è³‡æ–™æœ‰éŒ¯
 */
 enum UserCheckFormat CheckInsertList (struct User user);
 #endif // USER_H_INCLUDED
