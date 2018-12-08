@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1544274433 source:d:\c 粂ē 絤策\librarysystemrebuild\main.c
+	<stdio.h>
+	<stdlib.h>
+	"View.h"
+	"control.h"
+
+1543639512 source:d:\c 粂ē 絤策\librarysystemrebuild\addmember.cpp
+
+1544274562 d:\c 粂ē 絤策\librarysystemrebuild\view.c
+	<stdio.h>
+	<stdlib.h>
+	"View.h"
+
+1544273740 d:\c 粂ē 絤策\librarysystemrebuild\view.h
+	<stdio.h>
+	<stdlib.h>
+	"View.c"
+
+1544274429 d:\c 粂ē 絤策\librarysystemrebuild\control.h
+	"control.c"
+
+1544274530 d:\c 粂ē 絤策\librarysystemrebuild\control.c
+	<stdio.h>
+	<stdlib.h>
+	"View.h"
+	"control.h"
+
